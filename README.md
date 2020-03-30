@@ -13,12 +13,13 @@ Install it on a dedicated WLAN Pi that you will use only for wireless audit and 
 
 # INSTALLATION
 
-1. Copy the files to /var/www/html/capture
-2. sudo chown -R www-data.www-data /var/www/html/capture
-3. sudo chown root.root /var/www/html/capture/script/capture
-4. sudo chmod 4755 /var/www/html/capture/script/capture
-5. sudo chown root.root /var/www/html/capture/script/stop_capture
-4. sudo chmod 4755 /var/www/html/capture/script/stop_capture
+1. mkdir /var/www/html/capture
+2. Copy the index.html file and the 2 directories to /var/www/html/capture
+3. sudo chown -R www-data.www-data /var/www/html/capture
+4. sudo chown root.root /var/www/html/capture/script/capture
+5. sudo chmod 4755 /var/www/html/capture/script/capture
+6. sudo chown root.root /var/www/html/capture/script/stop_capture
+7. sudo chmod 4755 /var/www/html/capture/script/stop_capture
 
 # USAGE
 
