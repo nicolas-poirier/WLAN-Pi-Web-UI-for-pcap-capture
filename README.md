@@ -1,17 +1,15 @@
 # WLAN-Pi-Web-UI-for-pcap-capture
-A simple Web UI for pcap wireless capture with 2 adapters
-
+A simple Web UI to launch a wireless capture without having to open a SSH session, launch the script, etc.
+Work with 2 adapters.
 Feel free to adapt to your need :)
 
-!!! WARNING !!!
+# !!! WARNING !!!
 This script should not be deployed on a production network as it is highly insecured.
 It is run as root through the use of the set UID bit.
 Its installation on a production machine could result on its exploitation to gain access to your network.
 You've been warned :)
 Install it on a dedicated WLAN Pi that you will use only for wireless audit and testing and that will connect only to your laptop.
 !!! END OF WARNING !!!
-
-A simple Web UI to launch a wireless capture without having to open a SSH session, launch the script, etc.
 
 # INSTALLATION
 
