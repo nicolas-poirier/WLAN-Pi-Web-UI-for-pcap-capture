@@ -10,7 +10,7 @@ This script should not be deployed on a production network as it is highly insec
 It is run as root through the use of the set UID bit.
 Its installation on a production machine could result on its exploitation to gain access to your network.
 You've been warned :)
-Install it on a dedicated WLAN Pi that you will use only for wireless audit and testing and that will connect only to your laptop.
+Install it on a dedicated WLAN Pi that you will use only for wireless audit and testing and that you will connect only to your laptop.
 !!! END OF WARNING !!!
 
 # INSTALLATION
