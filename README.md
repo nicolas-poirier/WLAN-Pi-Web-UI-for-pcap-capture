@@ -3,6 +3,8 @@ A simple Web UI to launch a wireless capture without having to open a SSH sessio
 Work with 2 adapters.
 Feel free to adapt to your need :)
 
+![WLAN-Pi-Web-UI_Example](https://github.com/nicolas-poirier/WLAN-Pi-Web-UI-for-pcap-capture/blob/master/WLANPi_Web-wireless-capture-example.png)
+
 # !!! WARNING !!!
 This script should not be deployed on a production network as it is highly insecured.
 It is run as root through the use of the set UID bit.
