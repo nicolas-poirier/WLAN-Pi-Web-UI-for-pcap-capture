@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: Arial;}
+</style>
+</head>
+<body>
+<h2> Wireless Capture </h2>
+<form action="/capture/script/capture.php" method="post">
+    <p>Date (format YYYYMMDD): <input type="text" name="date" required pattern="[0-9]{8}" /> and time (format HH:MM:SS): <input type="text" name="time" required pattern="[0-2][0-9]:[0-6][0-9]:[0-6][0-9]" /></p>
+    <p>Channel 1 : <select name="canal1" size="1">
+        <option>36
+        <option>40
+        <option>44
+        <option>48
+        <option>52
+        <option>56
+        <option>60
+        <option>64
+        <option>100
+        <option>104
+        <option>108
+        <option>112
+        <option>116
+        <option>120
+        <option>124
+        <option>128
+        <option>132
+        <option>136
+        <option>140
+    </select> with channel width of <select name="largeur1" size="1">
+        <option value="HT20">20 MHz</option>
+        <option value="HT40-">40 MHz</option>
+        <option value="80MHz">80 MHz</option>
+    </select></p>
+
+    <p>Channel 2 : <select name="canal2" size="1">
+        <option>36
+        <option>40
+        <option>44
+        <option>48
+        <option>52
+        <option>56
+        <option>60
+        <option>64
+        <option>100
+        <option>104
+        <option>108
+        <option>112
+        <option>116
+        <option>120
+        <option>124
+        <option>128
+        <option>132
+        <option>136
+        <option>140
+    </select> with channel width of <select name="largeur2" size="1">
+        <option value="HT20">20 MHz</option>
+        <option value="HT40-">40 MHz</option>
+        <option value="80MHz">80 MHz</option>
+    </select></p>
+
+    <p> Slicing value (0 = no slicing): <input type="number" required min="0" name="slice" value="0" > bytes</p>
+
+    <input type="submit" value="Begin capture">
+</form></br>
+<form action="/capture/script/stop_capture.php">
+    <input type="submit" value="Stop capture">
+</form>
+</body>
+</html>
