@@ -23,6 +23,8 @@ Install it on a dedicated WLAN Pi that you will use only for wireless audit and 
 6. sudo chmod 4755 /var/www/html/capture/script/capture
 7. sudo chown root.root /var/www/html/capture/script/stop_capture
 8. sudo chmod 4755 /var/www/html/capture/script/stop_capture
+9. sudo chmod +x /var/www/html/capture/script/capture.sh
+10. sudo chmod +x /var/www/html/capture/script/stop_capture.sh
 
 # USAGE
 
